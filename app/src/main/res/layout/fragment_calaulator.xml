@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorScreen"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:id="@+id/eidttext_screen"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_80"
+        android:background="@color/colorScreen"
+        android:ellipsize="end"
+        android:enabled="false"
+        android:inputType="number"
+        android:gravity="center|right"
+        android:maxLines="1"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/tbl"
+        android:textSize="@dimen/sp_40"
+        android:textColor="@color/colorWhite"
+        />
+
+    <TableLayout
+        android:id="@+id/tbl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
+        android:layout_alignParentBottom="true"
+        >
+
+        <TableRow>
+
+            <Button
+                style="@style/stylebutton2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_80"
+                android:layout_span="3"
+                />
+
+            <Button
+                android:id="@+id/button_delete"
+                style="@style/stylebutton1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_80"
+                android:text="@string/key_delete"
+                />
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/button_number_seven"
+                style="@style/stylebutton1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_80"
+                android:text="@string/key_7"
+                />
+
+            <Button
+                android:id="@+id/button_number_eight"
+                style="@style/stylebutton1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_80"
+                android:text="@string/key_8"
+                />
+
+            <Button
+                android:id="@+id/button_number_nine"
+                style="@style/stylebutton1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_80"
+                android:text="@string/key_9"
+                />
+
+            <Button
+                android:id="@+id/button_div"
+                style="@style/stylebutton1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_80"
+                android:text="@string/key_div"
+                />
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/button_number_four"
+                style="@style/stylebutton1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_80"
+                android:text="@string/key_4"
+                />
+
+            <Button
+                android:id="@+id/button_number_five"
+                style="@style/stylebutton1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_80"
+                android:text="@string/key_5"
+                />
+
+            <Button
+                android:id="@+id/button_number_six"
+                style="@style/stylebutton1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_80"
+                android:text="@string/key_6"
+                />
+
+            <Button
+                android:id="@+id/button_mul"
+                style="@style/stylebutton1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_80"
+                android:text="@string/key_mul"
+                />
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/button_number_one"
+                style="@style/stylebutton1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_80"
+                android:text="@string/key_1"
+                />
+
+            <Button
+                android:id="@+id/button_number_two"
+                style="@style/stylebutton1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_80"
+                android:text="@string/key_2"
+                />
+
+            <Button
+                android:id="@+id/button_number_three"
+                style="@style/stylebutton1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_80"
+                android:text="@string/key_3"
+                />
+
+            <Button
+                android:id="@+id/button_sub"
+                style="@style/stylebutton2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_80"
+                android:text="@string/key_sub"
+                />
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/button_dot"
+                style="@style/stylebutton1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_80"
+                android:text="."
+                />
+
+            <Button
+                android:id="@+id/button_number_zero"
+                style="@style/stylebutton1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_80"
+                android:text="@string/key_0"
+                />
+
+            <Button
+                android:id="@+id/button_equals"
+                style="@style/stylebutton2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_80"
+                android:text="@string/key_equals"
+                />
+
+            <Button
+                android:id="@+id/button_add"
+                style="@style/stylebutton2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_80"
+                android:text="@string/key_add"
+                />
+
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>
